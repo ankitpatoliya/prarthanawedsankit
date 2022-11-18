@@ -73,6 +73,12 @@ Section Description:    14px/1 'Poppins', sans-serif;
 /*====================================================================== 
 		1. The Heart Typography 
 ====================================================================================*/
+.the-heart-footer-content h2 {
+    color: #f1ecec!important;
+}
+.the-heart-footer-content h5 {
+    color: #fff;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -3161,6 +3167,9 @@ uncomment this part if you haven't added this code anywhere else
 		height: 100%;
 }
 @media (max-width: 768px){
+	.the-heart-wedding-jurnal-footer h5:before {
+		    background-position: center;
+	}
 	.the-heart-intruduction-content-txt{
 		height: 150px !important;
 	}
@@ -3178,14 +3187,17 @@ uncomment this part if you haven't added this code anywhere else
 	iframe{
 		height: 300px;
 	}
+footer div#jarallax-container-1 img {
+    top: 160px!important;
+    width: 100%!important;
+    object-fit: contain!IMPORTANT;
+}
 	#jarallax-container-0>img{
 		margin-top: -2px !important;
 		top: 0 !important;
 	}	
+	.the-heart-wedding-jurnal-section.section-padding {
+    padding: 35px 0 23px 0!important;
+}
 }
 
-@media (max-width: 479px){
-.the-heart-spilt-container {
-    width: 50%;
-}
-}
